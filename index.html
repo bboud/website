@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="main.css">
+	<script src="main.js"></script>
+	
+	<title>Brandon Boudreaux</title>
+</head>
+<body onload="document.getElementById('defaultOpen').click();">
+	<div class="header">
+		<img class="icon" src="icons/user.png"> Brandon Boudreaux
+		<a id="email-link" href = "mailto: hf3209@wayne.edu"> <img class="icon" src="icons/email_edit.png"> Contact Me! </a>
+	</div>
+	 <!-- Tab links -->
+	<div class="tab">
+		<button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen"> <img class="icon"  src="icons/information.png"> About</button>
+		<button class="tablinks" onclick="openTab(event, 'Research')"> <img class="icon" src="icons/chart_curve.png"> Research</button>
+		<button class="tablinks" onclick="openTab(event, 'Projects')"> <img class="icon" src="icons/bricks.png"> Projects</button>
+		
+		<!-- Tab content -->
+		<div id="About" class="tabcontent">
+			<div class="row">
+				<div class="column-left">
+					<img id="self" src="images/self.png">
+				</div>
+				<div class="column-right">
+					<p id="self-text">
+						Hello! My name is Brandon Boudreaux. I am a 3rd year Physics major with a minor in Mathematics at <a href="wayne.edu">Wayne State University</a> in Detroit, Michigan. I am the Treasurer of the <a href="https://www.facebook.com/WSUSPS"> Society of Physics Students Wayne State Chapter</a>. I was born in Norco, Louisiana and relocated to the Detroit Metro Area in 2014. After I complete my degree, I hope to continue my education into a PhD program in pursuit of physics.
+						<br><br>
+						Currently, I am a fellow of the <a href="https://jetscape.org/">JETSCAPE Collaboration</a> developing machine learning replacement for quark-gluon plasma hydrodynamics simulations. View the 'Research' tab for more information!
+						<br><br>
+						I have a wide variety of interested that include, but are not limited to: Video games, Meteorology, Mathematics, Physics, Electronics, 3D-Printing, Programming, Language Learning, Climate Activism, and much more! Under the 'Projects' tab includes a list of projects that are currently in the works.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="Research" class="tabcontent">
+			<h3>Coming Soon!</h3>
+			<p>    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+
+		<div id="Projects" class="tabcontent">
+			<h3>Coming Soon!</h3>
+			<p>    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+	</div>
+</body>
+</html>
