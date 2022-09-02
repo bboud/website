@@ -80,29 +80,14 @@ body{
 	vertical-align: middle;
 }
 #self{
-	max-width: 100%;
-	height: auto;
-    border: 5px solid #7EA9DC;
+	width: 100%;
+    border: 1px solid #7EA9DC;
     border-radius: 5px 5px 5px 5px;
-    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4), inset 0 1px 0 #FFF;
-	
 }
 
 #self-text{
 	padding: 6px 6px;
-/*    border: 1px solid #7EA9DC;
-    border-radius: 5px 5px 5px 5px;
-    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4), inset 0 1px 0 #FFF;*/
 }
-
-/*#self{
-	width: 15%;
-	float: left;
-}
-#self-text{
-	width: 80%;
-	float: right;
-}*/
 
 .column-right{
 	width: 80%;
@@ -112,6 +97,7 @@ body{
 .column-left{
 	width: 15%;
 	float: left;
+	text-align: center;
 }
 
 .column-center{
@@ -119,9 +105,23 @@ body{
 	float: left;
 }
 
+.row{
+	padding: 5px;
+    border: 1px solid #7EA9DC;
+    border-radius: 5px 5px 5px 5px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
 /* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
+}
+
+#side-image {
+	max-width: 100%;
+	height: auto;
+	text-align: center;
 }
