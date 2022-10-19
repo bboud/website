@@ -21,6 +21,7 @@
 	float: right;
 	color: #FFF;
 	text-decoration: none;
+	margin-right: 5px;
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -54,7 +55,7 @@
 
 /* Style the tab content */
 .tabcontent {
-  display: none;
+  display: block;
   padding: 6px 12px;
   margin-top: 0px;
   background-color: #D8E9FB;
