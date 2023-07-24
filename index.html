@@ -1,39 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="main.css">
-	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Brandon Boudreaux</title>
+
+	<link rel="stylesheet" href="http://maxbeier.github.io/tawian-frontend/tawian-frontend.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cousine:400,400i,700,700i">
 </head>
 <body>
-	<div class="header">
-		<img class="icon" src="icons/user.png"> Brandon Boudreaux
-		<a id="email-link" href = "mailto: hf3209@wayne.edu"> <img class="icon" src="icons/email_edit.png"> Contact Me!</a>
-		<a id="email-link" href = "https://github.com/bboud/"> <img class="icon" src="icons/page_code.png"> Github</a>
-	</div>
-	 <!-- Tab links -->
-	<div class="tab">
-		<button class="tablinks active" onclick="window.location.href='file:///Users/cee/Documents/Website/index.html';"> <img class="icon"  src="icons/information.png"> About</button>
-		<button class="tablinks" onclick="window.location.href='file:///Users/cee/Documents/Website/research.html';"> <img class="icon" src="icons/chart_curve.png"> Research</button>
-		<button class="tablinks" onclick="window.location.href='file:///Users/cee/Documents/Website/projects.html';"> <img class="icon" src="icons/bricks.png"> Projects</button>
-		
-		<!-- Tab content -->
-		<div id="About" class="tabcontent">
-			<div>
-				<div class="column-left">
-					<img id="self" src="images/self.png">
-				</div>
-				<div class="column-right">
-					<p id="self-text">
-						Hello! My name is Brandon Boudreaux. I am a 3rd-year Physics major with a minor in Mathematics at <a href="wayne.edu">Wayne State University</a> in Detroit, Michigan. I am the Treasurer of the <a href="https://www.facebook.com/WSUSPS"> Society of Physics Students Wayne State Chapter</a>. I was born in Norco, Louisiana, and relocated to the Detroit Metro Area in 2014. After I complete my degree, I hope to continue my education in a Ph.D. program in pursuit of physics.
-						<br><br>
-						Currently, I am an undergraduate research fellow of the <a href="https://jetscape.org/">JETSCAPE Collaboration</a> developing machine learning replacement for quark-gluon plasma hydrodynamics simulations. View the 'Research' tab for more information!
-						<br><br>
-						I have a wide variety of interests that include, but are not limited to Video games, Meteorology, Mathematics, Physics, Electronics, 3D-Printing, Programming, Language Learning, Climate Activism, and much more! The 'Projects' tab includes a list of projects that are currently in the works.
-					</p>
+	<div class="container">
+		<header class="site-header dashed-bottom">
+			<a class="site-title" href="">Brandon Boudreaux</a>
+			<nav class="site-nav nav-seperated">
+				<ul>
+					<li>
+						<a href=""> <img src="icons/information.png" alt=""> Research</a>
+						<a href=""> <img src="icons/bricks.png" alt=""> Projects</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<main class="site-main">
+			<div class="card">
+				<div class="card-header"> <img src="icons/user.png" alt=""> About Me</div>
+				<div class="card-body">
+					<div class ="grid">
+						<div class="cell">
+							<img src="images/self.png" alt="">
+						</div>
+						<div class="cell">
+							<p>
+								Hello! My name is Brandon Boudreaux. I am a 3rd-year Physics major with a minor in Mathematics at <a href="wayne.edu">Wayne State University</a> in Detroit, Michigan. I am the Treasurer of the <a href="https://www.facebook.com/WSUSPS"> Society of Physics Students Wayne State Chapter</a>. I was born in Norco, Louisiana, and relocated to the Detroit Metro Area in 2014. After I complete my degree, I hope to continue my education in a Ph.D. program in pursuit of physics.
+								<br><br>
+								I am engaged in undergraduate research with Dr Chun Shen of WSU developing machine learning replacement for quark-gluon plasma hydrodynamics simulations. View the 'Research' tab for more information!
+								<br><br>
+								I have a wide variety of interests that include, but are not limited to Video games, Meteorology, Mathematics, Physics, Electronics, 3D-Printing, Programming, Language Learning, Climate Activism, and much more! The 'Projects' tab includes a list of projects that are currently in the works.
+							</p>
+						</div>
+					</div>
 				</div>
 			</div>
-		</div>
+		</main>
+		<footer class="site-footer dashed-top" >
+			Brandon Boudreaux - 
+			<a href="https://github.com/bboud">Github</a>
+			<a href="mailto:hf3209@wayne.edu">Email</a>
+		</footer>
 	</div>
 </body>
 </html>
